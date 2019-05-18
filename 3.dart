@@ -5,5 +5,5 @@ hitungChar(source, cari){
 
 main(){
   /// pemanggilan program
-  hitungChar('Rizal', 'l');
+  hitungChar('bootcamp', 'o');
 }
