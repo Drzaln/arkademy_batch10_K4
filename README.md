@@ -1,6 +1,6 @@
 # Jawaban soal bootcamp arkademy batch 10 kloter 4
 
-Untuk jawaban nomor 1 s/d 5 di repo ini dapat dijalankan melalui Dart online editor ini => [DARTPAD](https://dartpad.dartlang.org/)
+Untuk jawaban nomor 1 s/d 5 di repo ini dapat dijalankan melalui Dart online editor ini => [DartPad](https://dartpad.dartlang.org/)
 
 ## Soal 1
 
