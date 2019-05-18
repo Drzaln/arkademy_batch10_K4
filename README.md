@@ -20,3 +20,4 @@ Untuk soal nomor 3 source masukan akan dihitung oleh fungsi 'hitungChar()'.
 
 ## Soal 4
 
+Menggunakan fungsi 'buatGambar()' untuk menampilkan gambar.

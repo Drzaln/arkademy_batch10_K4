@@ -3,13 +3,7 @@ buatGambar(input){
   if(input%2 == 1){
     for(var i=0; i<input; i++){
       for(var j=0; j<input; j++){
-        if(i==j){
-          gmb += 'x ';
-        }else if(j == input-1-i){
-          gmb += 'x ';
-        }else{
-          gmb += '= ';
-        }
+        i==j ? gmb += 'x ' : j == input-1-i ? gmb += 'x ' : gmb += '= ';
       }
       gmb += '\n';
     }
