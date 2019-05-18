@@ -17,7 +17,7 @@ main(){
   var bio = new bioToJson();
   bio.name = 'Doddy Rizal Novianto';
   bio.address = 'Jalan margasatwa';
-  bio.hobbies = ['makan', 'minum', 'tidur'];
+  bio.hobbies = ['baca', 'ngoding', 'sepedaan'];
   bio.is_married = false;
   bio.highSchool = 'MAN 1 Klaten';
   bio.university = 'Universitas Negeri Semarang';
