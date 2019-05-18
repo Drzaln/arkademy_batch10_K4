@@ -1,5 +1,6 @@
 import 'dart:math';
 
+/// generate random string
 const ASCII_START = 33;
 const ASCII_END = 126;
 const NUMERIC_START = 48;
@@ -47,6 +48,7 @@ String randomMerge(String a, String b) {
   return new String.fromCharCodes(mergedCodeUnits);
 }
 
+/// untuk mengecek tidak ada string yang duplicate
 checkArray(randString, stringBaru){
   if(randString == stringBaru){
     var stringLain = randomAlphaNumeric(32);
@@ -56,7 +58,8 @@ checkArray(randString, stringBaru){
   }
 }
 
-random(total){
+/// mencetak angka random yang banyaknya berdasarkan parameter
+cetak(total){
   var randString = [];
   for (var i=0; i<total; i++){
     var stringBaru = randomAlphaNumeric(32);
@@ -66,6 +69,7 @@ random(total){
   print(randString);
 }
 
+
 main(){
-  random(5);
+  cetak(5);
 }
