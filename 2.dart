@@ -47,24 +47,23 @@ String randomMerge(String a, String b) {
   return new String.fromCharCodes(mergedCodeUnits);
 }
 
-//checkArray(randString, stringBaru){
-//  if(randString.any((item) => stringBaru.contains(item))){
-//    var stringLain = randomAlphaNumeric(32);
-//    return checkArray(randString, stringLain);
-//  }else{
-//    return stringBaru;
-//  }
-//}
+checkArray(randString, stringBaru){
+  if(randString == stringBaru){
+    var stringLain = randomAlphaNumeric(32);
+    return checkArray(randString, stringLain);
+  }else{
+    return stringBaru;
+  }
+}
 
 random(total){
   var randString = [];
   for (var i=0; i<total; i++){
     var stringBaru = randomAlphaNumeric(32);
-//    checkArray(randString, stringBaru);
+    checkArray(randString, stringBaru);
     randString.add(stringBaru);
-    print(stringBaru);
   }
-  return randString;
+  print(randString);
 }
 
 main(){
